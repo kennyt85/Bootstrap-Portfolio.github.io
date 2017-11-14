@@ -10,8 +10,8 @@ body {
   color: #777777;
 }
 
-.container{
-  width: 960px;
+.row{
+  max-width: 960px;
   margin: 0 auto;
   clear: both;
 }
@@ -176,16 +176,13 @@ textarea{
 }
 
 @media (max-width: 576px) {
-  header h1 {
-    width:100%;
-    align-content: center;
-    background: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    line-height: 90px;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 30px;
-    text-decoration: none;
+    header h1 {
+      width:100%;
+      text-align: center;
+    }
+
+    header ul{
+      width:100%;
+      text-align: center;
   }
 }
