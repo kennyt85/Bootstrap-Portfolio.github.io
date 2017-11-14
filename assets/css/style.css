@@ -174,3 +174,18 @@ textarea{
   display: block;
   width: 100%;
 }
+
+@media (max-width: 576px) {
+  header h1 {
+    width:100%;
+    align-content: center;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+  }
+}
